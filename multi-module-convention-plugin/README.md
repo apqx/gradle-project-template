@@ -1,4 +1,4 @@
-A single-module gradle project template
+A multi-module-custom-plugin gradle project template
 
 Use repository mirror in China mainland for `gradle wrapper` and `maven central`
 

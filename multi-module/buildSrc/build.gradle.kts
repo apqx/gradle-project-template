@@ -5,9 +5,9 @@ plugins {
 
 repositories {
     // Use the plugin portal to apply community plugins in convention plugins.
-    gradlePluginPortal()
+    maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
+    // project/build.gradle.kts中定义的plugin也可以在这里定义，同样可以被所有module使用
 }

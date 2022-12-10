@@ -20,4 +20,5 @@ dependencyResolutionManagement {
         maven { url = uri("https://maven.aliyun.com/repository/google") }
     }
 }
-rootProject.name = "no-module"
+rootProject.name = "multi-module-convention-plugin"
+include("app", "lib")
